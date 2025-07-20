@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 
-const baseURL = 'https://auth-backend-hi6x.onrender.com';
+const baseURL = process.env.LOGIN_OAUTH;
 
 const axiosInstance = axios.create({
   baseURL,
