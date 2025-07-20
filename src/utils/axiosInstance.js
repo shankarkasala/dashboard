@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { useAuth } from '../context/AuthContext';
 
 const baseURL = process.env.LOGIN_OAUTH;
 
